@@ -6,6 +6,7 @@ authors = ["bucky <buckyroberts@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+nameko = "^2.14.0"
 
 [tool.poetry.dev-dependencies]
 

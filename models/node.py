@@ -6,6 +6,7 @@ from .blockchain import Blockchain
 
 
 class Node:
+    name = 'node_service'
 
     def __init__(self, node_id):
         self.data_dir = DATA_DIR / f'node_{node_id}'
